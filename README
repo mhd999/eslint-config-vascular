@@ -1,0 +1,28 @@
+# eslint-config-vascular.io
+
+## Installation
+
+```sh
+yarn add eslint @vascular/eslint-config-vascular.io --dev
+```
+
+## Usage Front-end
+
+In your `.eslintrc`-file:
+```js
+{
+  "extends": [
+    "@vascular/eslint-config-vascular.io/frontend"
+  ]
+}
+```
+## Usage Backend
+
+In your `.eslintrc`-file:
+```js
+{
+  "extends": [
+    "@vascular/eslint-config-vascular.io/backend"
+  ]
+}
+```

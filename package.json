@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-vascular",
+  "version": "0.0.1",
+  "description": "Eslint config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhd999/eslint-config-vascular.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "mhd999",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhd999/eslint-config-vascular/issues"
+  },
+  "homepage": "https://github.com/mhd999/eslint-config-vascular#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "merge-deep": "3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
